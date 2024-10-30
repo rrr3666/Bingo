@@ -330,12 +330,12 @@
 
       // Загрузка файлов
       var unityLoader = document.createElement("script");
-      unityLoader.src = "Build/BingoTest.loader.js";
+      unityLoader.src = "Build/Bingo.loader.js";
       unityLoader.onload = () => {
         createUnityInstance(canvas, {
-          dataUrl: "Build/BingoTest.data.unityweb",
-          frameworkUrl: "Build/BingoTest.framework.js.unityweb",
-          codeUrl: "Build/BingoTest.wasm.unityweb",
+          dataUrl: "Build/Bingo.data.unityweb",
+          frameworkUrl: "Build/Bingo.framework.js.unityweb",
+          codeUrl: "Build/Bingo.wasm.unityweb",
           streamingAssetsUrl: "StreamingAssets",
           companyName: "DefaultCompany",
           productName: "BingoGame",
